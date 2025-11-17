@@ -1,5 +1,5 @@
 [project]
-name = "kg-build-template-notebook"
+name = "kg-build-notebook-template"
 version = "1.0.0"
 description = ""
 authors = [
