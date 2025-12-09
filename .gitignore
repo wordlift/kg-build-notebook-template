@@ -1,12 +1,14 @@
 *
 !app/
 !app/overrides/
+!app/overrides/**
 !config/
 !data/
 !tests/
 !app/*
 !config/*
 !data/*
+!data/private/**
 !tests/*
 !.gitignore
 !.gitkeep

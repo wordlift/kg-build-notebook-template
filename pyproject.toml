@@ -13,18 +13,8 @@ dependencies = [
     "pydantic-ai[logfire]>=0.3.2,<0.4.0",
     "python-liquid>=2.0.2,<3.0.0",
     "pandas-stubs>=2.2.3.250527,<3.0.0.0",
-    "wordlift-sdk",
+    "wordlift-sdk>=2.7.4,<3.0.0",
 ]
 
-[project.optional-dependencies]
-dev = [
-    "ruff>=0.11.13",
-    "pre-commit>=4.2.0",
-    "pytest>=8.4.0",
-    "nbstripout>=0.8.1",
-]
-
-[tool.uv]
-
-[tool.uv.sources]
-wordlift-sdk = { git = "https://github.com/wordlift/python-sdk.git", rev = "2.5.6" }
+[dependency-groups]
+dev = ["ruff>=0.11.13", "pre-commit>=4.2.0", "pytest>=8.4.0", "nbstripout>=0.8.1"]
